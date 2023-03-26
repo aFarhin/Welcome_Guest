@@ -4,7 +4,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+}
 
+.main {
+    width: 600px;
+    height: auto;
 }
 
 h3 {
