@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome Guests</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="main">
+
+        <h1>Welcome Guests</h1>
+
+        <h3> Steps:</h3>
+
+        <h4>1. Enter your name <br>
+            2. Then enter a Number between 1 to 10 <br>
+            3. Then check if you are eligible or not to enter my house as a guest</h4>
+
+        <h3>Conditions:</h3>
+        <h4> If you dont enter name, you are not allowed to enter number </h4> <br>
+
+        <p>Please enter your name :</p>
+        <input id="nameInput" type="text" placeholder="Enter your name">
+        <button onclick="writeName()">Enter</button><br><br>
+        <span id="message"></span> <br>
+
+
+        <p>Please enter the number :</p>
+        <input id="numInput" type="text" placeholder="Enter your number" disabled>
+        <button onclick="welcomeGuest()">Enter</button><br><br>
+        <span id="welcomeMessage"></p> 
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
